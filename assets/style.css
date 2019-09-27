@@ -1,0 +1,25 @@
+/* :root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+} */
+
+/* .container{
+    max-width: 100%;
+    margin: 0 auto;
+} */
+
+/* .grid-row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+} */
+
+/* .grid-item{
+    height: 100px;
+    flex-basis: 20%;
+    -ms-flex: auto;
+    width: 100px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+} */
