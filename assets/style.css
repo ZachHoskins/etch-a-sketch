@@ -1,59 +1,60 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body, html {
-    height: 100%;
-    width: 100%;
-  }
-  
-  body {
-    background-color: #7d0000;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-  }
-  
-  h1 {
-    color: gold;
-    font-size: 2.9em;
-    padding: 25px;
-  }
-
-.reset {
-    background-color: slategray;
-    border: 2px solid lightgray;
-    border-radius: 12px;
-    color: green;
-    margin-bottom: 20px;
-    padding: 5px 12px;
+  margin: 0;
+  padding: 0;
 }
 
-.reset:hover {
-    background-color: green;
-    border-color: black;
-    color: slategray;
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(1,22,39);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 2.9em;
+  padding: 25px;
+}
+
+.new-grid {
+  background-color: slategray;
+  border: 2px solid black;
+  border-radius: 12px;
+  color: black;
+  margin-bottom: 20px;
+  padding: 5px 12px;
+}
+
+.new-grid:hover {
+  background-color: rgb(75,189,196);
+  border-color: black;
+  color: black;
+  font-weight: bolder;
 }
 
 .grid-container {
-    display: flex;
-    flex-direction: column;
-    height: 600px;
-    margin: 0 auto;
-    width: 600px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  margin: 0 auto;
+  width: 600px;
 }
 
 .grid-row {
-    display: flex;
-    width: 100%;
-    height: 100%;
+  display: flex;
+  width: 100%;
+  height: 100%;
 }
 
 .grid-column {
-    border: 1px solid blue;
-    width: 100%;
+  border: .1px solid #ffffff;
+  width: 100%;
 }
 
 .black {
-    background-color: black;
+  background-color: rgb(75,189,196);
 }
